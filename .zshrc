@@ -17,7 +17,7 @@ export ZSH_THEME=""
 export CASE_SENSITIVE="true"
 export DISABLE_MAGIC_FUNCTIONS="true" # url pasting
 export HIST_STAMPS="mm/dd/yyyy"
-export ZSH_CUSTOM=$HOME/.config/omz/"
+export ZSH_CUSTOM="$HOME/.config/omz/"
 
 ## custom-vars
 export iCloud="/Users/sparsh/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
