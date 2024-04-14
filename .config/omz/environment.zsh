@@ -8,6 +8,13 @@
 # Custom Functions #
 ####################
 
+## bat integration
+# https://github.com/sharkdp/bat --documentation
+function batdiff() {
+    git diff --name-only --relative --diff-filter=d | xargs bat --diff
+}
+
+## print help
 function helpme() {
   echo "# Configurations"
   echo "viconf  > open vim config."

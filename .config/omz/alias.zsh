@@ -13,6 +13,7 @@ alias clear_history="cat /dev/null > ~/.bash_history && history -c && reset"
 alias cc='clear'
 alias qq='exit'
 alias python3='python3.11'
+alias cat='bat'
 
 ##############
 # File Paths #
