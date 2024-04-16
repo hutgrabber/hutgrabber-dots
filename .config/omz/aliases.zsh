@@ -8,20 +8,23 @@
 # General #
 ###########
 
+alias addkey="eval $(ssh-agent -s) && ssh-add $HOME/.ssh/gitkey && ssh -T git@github.com"
+alias als="nvim $HOME/.config/omz/aliases.zsh"
 alias disklist="diskutil list"
 alias clear_history="cat /dev/null > ~/.bash_history && history -c && reset" 
-alias cc='clear'
-alias qq='exit'
-alias python3='python3.11'
+alias cc="clear"
+alias qq="exit"
+alias python3="python3.11"
 
 ##############
 # File Paths #
 ##############
 
-alias cd-icloud="/Users/sparsh/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
-alias cd-obsidian="/Users/sparsh/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents"
-alias gits="cd /Users/sparsh/Developer/Projects/git-repos/"
+alias cd-icloud="$HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
+alias cd-obsidian="$HOME/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents"
+alias gits="cd $HOME/Developer/Projects/git-repos/"
 alias conf="cd $HOME/.config/"
+alias dots="cd $HOME/.dotfiles/"
 
 ################
 # Tmux Aliases #
