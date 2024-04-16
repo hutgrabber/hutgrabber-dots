@@ -60,3 +60,6 @@ source $ZSH/oh-my-zsh.sh
 
 ## loading starship
 eval "$(starship init zsh)"
+
+# Created by `pipx` on 2024-04-16 14:04:22
+export PATH="$PATH:/home/hutgrabber/.local/bin"

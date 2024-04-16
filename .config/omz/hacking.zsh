@@ -26,6 +26,32 @@ alias connectuniversal="sudo openvpn $HOME/Desktop/vpns/offsec/universal.ovpn"
 #
 # Functions
 # ======================================================================
+
+function addhost() {
+  if [[ $EUID -ne 0 ]]; then
+    echo "This script must be run as root" >&2
+    return 1
+  fi
+
+  local input="$1"
+  if [[ -z "$input" ]]; then
+    echo "Usage: host <IP Address> [hostname1] [hostname2] [hostname3] ..."
+    return 1
+  fi
+
+  local ip_address=""
+  if [[ "$input" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+    ip_address="$input"
+    read -r -p "Enter hostname: " hostname
+  else
+    hostname="$input"
+    read -r -p "Enter IP address: " ip_address
+  fi
+
+  echo "$ip_address $hostname" | sudo tee -a /etc/hosts
+  echo "Added $hostname ($ip_address) to /etc/hosts"
+}
+
 # mcd: make and navigate into a new directory
 mcd() {
     mkdir -p -- "$1" && cd -P -- "$1";
