@@ -8,12 +8,18 @@
 # Custom Functions #
 ####################
 
-## bat integration
-# https://github.com/sharkdp/bat --documentation
-function batdiff() {
-    git diff --name-only --relative --diff-filter=d | xargs bat --diff
-}
+# TODO :
+# ## bat integration
+# # https://github.com/sharkdp/bat --documentation
+# function batdiff() {
+#     git diff --name-only --relative --diff-filter=d | xargs bat --diff
+# }
 
+funtion addkey() {
+ eval $(ssh-agent -s);
+ ssh-add $HOME/.ssh/gitkey;
+ ssh -T git@github.com
+}
 ## print help
 function helpme() {
   echo "# Configurations"

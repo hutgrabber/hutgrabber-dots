@@ -8,7 +8,6 @@
 # General #
 ###########
 
-alias addkey="eval $(ssh-agent -s) && ssh-add $HOME/.ssh/gitkey && ssh -T git@github.com"
 alias als="nvim $HOME/.config/omz/aliases.zsh"
 alias disklist="diskutil list"
 alias clear_history="cat /dev/null > ~/.bash_history && history -c && reset" 
