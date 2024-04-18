@@ -18,7 +18,7 @@ export CASE_SENSITIVE="true"
 export DISABLE_MAGIC_FUNCTIONS="true" # url pasting
 export HIST_STAMPS="mm/dd/yyyy"
 export ZSH_CUSTOM="$HOME/.config/omz/"
-
+export PAGER=bat
 ## custom-vars
 export iCloud="/Users/sparsh/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
 export NSE="/opt/homebrew/Cellar/nmap/7.94_1/share/nmap/scripts"
