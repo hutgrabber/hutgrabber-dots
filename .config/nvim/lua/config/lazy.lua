@@ -21,6 +21,10 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
+    -- Disable 'change detected, reloading...'
+    change_detection = {
+        notify = false,
+    },
     -- update checker config made with gpippity
     checker = {
         enabled = true,

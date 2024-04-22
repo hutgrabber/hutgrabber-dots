@@ -51,3 +51,5 @@ alias vim="nvim"
 ####################
 
 alias cleanbrew="brew cleanup && brew autoremove"
+alias updatebrew="brew update && brew upgrade && brew cleanup && brew autoremove"
+
