@@ -5,6 +5,7 @@
 # hash -d d=$HOME/Desktop
 # Aliases
 # ======================================================================
+alias pubip="host myip.opendns.com resolver1.opendns.com | grep -oE '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' | awk 'NR==2'"
 alias vpnip="ip -4 addr show tun0 | grep -oP \"(?<=inet\s)\d+(\.\d+){3}\""
 alias pwdcp="echo -n $(pwd) | xclip -selection clipboard"
 alias connectthm="sudo openvpn $HOME/Desktop/vpns/thm/siddicky.ovpn"

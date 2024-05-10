@@ -44,7 +44,7 @@ alias pconf="nvim $HOME/.config/omz/hutgrabber.zsh"
 alias sshconf="nvim $HOME/.ssh/config"
 alias starconf="nvim $HOME/.config/starship/starship.toml"
 alias viconf="nvim ~/.config/nvim/"
-alias vim="nvim"
+alias v="nvim"
 
 ####################
 # Homebrew Aliases #
