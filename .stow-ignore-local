@@ -1,3 +1,4 @@
+.stow-ignore-local
 RCS
 .+,v
 
@@ -9,6 +10,7 @@ CVS
 _darcs
 \.hg
 
+/scripts
 \.git
 \.gitignore
 \.gitmodules
