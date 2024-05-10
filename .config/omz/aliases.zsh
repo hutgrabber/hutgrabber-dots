@@ -46,12 +46,9 @@ alias gC="git checkout"
 alias gcm="git commit -m"
 alias gaa="git add --all"
 alias ga="git add ."
-<<<<<<< HEAD
 alias gs="git status"
 alias gS="git show"
 alias gd="git diff"
-=======
->>>>>>> 3003cb1e9a4041b21f903ad04c22ee0bdd91b27f
 
 #########################
 # Config & Source Files #
