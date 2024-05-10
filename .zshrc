@@ -36,7 +36,6 @@ export STARSHIP_CONFIG="$HOME/.config/starship.toml"
 ###############
 
 plugins=(
-    git
     zsh-autosuggestions
     zsh-syntax-highlighting
     tmux

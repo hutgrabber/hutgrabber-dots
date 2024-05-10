@@ -31,6 +31,22 @@ alias dots="cd $HOME/.dotfiles/"
 
 alias td="tmux detach"
 
+################
+# Git Aliases #
+################
+
+alias g="git"
+alias gp="git pull"
+alias gP="git push"
+alias gf="git fetch"
+alias gl="git log"
+alias glog="git log --oneline --graph"
+alias gb="git branch"
+alias gC="git checkout"
+alias gcm="git commit -m"
+alias gaa="git add --all"
+alias ga="git add ."
+
 #########################
 # Config & Source Files #
 #########################
