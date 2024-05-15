@@ -15,7 +15,7 @@ return {
             "mypy",
             "ruff",
             "prettierd",
-            "js-debug-adapter",
+            "write-good",
         },
     },
 }
