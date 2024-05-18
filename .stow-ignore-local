@@ -10,6 +10,7 @@ CVS
 _darcs
 \.hg
 
+/plugs
 /scripts
 \.git
 \.gitignore
