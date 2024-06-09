@@ -16,4 +16,3 @@ opt.ignorecase = true -- ignorecase when searching
 opt.smartcase = true -- if you include mixed case, assume case sensitive
 opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 opt.swapfile = false -- turn off vim swapfiles
-vim.lsp.inlay_hints = {}

@@ -30,6 +30,7 @@ alias dots="cd $HOME/.dotfiles/"
 ################
 
 alias td="tmux detach"
+alias t="tmux"
 
 ################
 # Git Aliases #
