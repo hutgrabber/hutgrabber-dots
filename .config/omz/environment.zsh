@@ -20,6 +20,10 @@ funtion addkey() {
  ssh-add $HOME/.ssh/gitkey;
  ssh -T git@github.com
 }
+
+function showkeys() {
+  ls -lah $HOME/.ssh/
+}
 ## print help
 function helpme() {
   echo "# Configurations"
