@@ -23,7 +23,7 @@ function rmhost() {
 
     # Check if the last line is the protected line
     if [[ "$last_line" =~ "$mark" ]]; then
-        echo "Don't Push It -_-"
+        echo "Don't Push It Partner -_-"
     else
         # Remove the last line
         sudo /bin/zsh -c "sed -i '\$d' /etc/hosts"
