@@ -1,2 +1,4 @@
 # Ignore all dot files
+lazy-lock.json
+lazyvim.json
 .DS_Store
